@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "E:\projects\mle_agent\outputs\run_20251203_102152_seed0\generated_train.py", line 44, in <module>
+    clf.fit(X_train, y_train)
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1335, in fit
+    raise ValueError(
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)

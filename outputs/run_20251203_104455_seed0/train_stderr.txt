@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "E:\projects\mle_agent\outputs\run_20251203_104455_seed0\generated_train.py", line 69, in <module>
+    pipeline.fit(X_train, y_train)
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\pipeline.py", line 663, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\ensemble\_hist_gradient_boosting\gradient_boosting.py", line 565, in fit
+    y = _check_y(y, estimator=self)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\utils\validation.py", line 1407, in _check_y
+    _assert_all_finite(y, input_name="y", estimator_name=estimator_name)
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\utils\validation.py", line 105, in _assert_all_finite
+    raise ValueError("Input contains NaN")
+ValueError: Input contains NaN

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "E:\projects\mle_agent\outputs\run_20251203_105800_seed0\generated_train.py", line 77, in <module>
+    X_train, X_val, y_train, y_val = train_test_split(
+                                     ^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\model_selection\_split.py", line 2940, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\model_selection\_split.py", line 1927, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\model_selection\_split.py", line 2342, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.

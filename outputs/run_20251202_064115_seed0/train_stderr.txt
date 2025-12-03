@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "E:\projects\mle_agent\outputs\run_20251202_064115_seed0\generated_train.py", line 81, in <module>
+    test_preds = pipeline.predict(X_test)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\pipeline.py", line 788, in predict
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\compose\_column_transformer.py", line 1085, in transform
+    raise ValueError(f"columns are missing: {diff}")
+ValueError: columns are missing: {'diagnosis', 'benign_malignant'}

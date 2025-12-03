@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\projects\mle_agent\outputs\run_20251202_061924_seed0\generated_train.py", line 40, in <module>
+    ("cat", OneHotEncoder(handle_unknown="ignore", sparse=False), cat_cols),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'

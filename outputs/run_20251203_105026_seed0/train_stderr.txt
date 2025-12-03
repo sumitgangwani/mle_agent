@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "E:\projects\mle_agent\outputs\run_20251203_105026_seed0\generated_train.py", line 76, in <module>
+    pipeline.fit(X_train, y_train)
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\pipeline.py", line 663, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\ensemble\_hist_gradient_boosting\gradient_boosting.py", line 566, in fit
+    y = self._encode_y(y)
+        ^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\ensemble\_hist_gradient_boosting\gradient_boosting.py", line 1848, in _encode_y
+    y = y.astype(Y_DTYPE, copy=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Martha'

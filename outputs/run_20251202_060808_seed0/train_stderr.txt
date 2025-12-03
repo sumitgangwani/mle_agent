@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "E:\projects\mle_agent\outputs\run_20251202_060808_seed0\generated_train.py", line 57, in <module>
+    pipeline.fit(X_train, y_train)
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\pipeline.py", line 663, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\ensemble\_hist_gradient_boosting\gradient_boosting.py", line 564, in fit
+    X, known_categories = self._preprocess_X(X, reset=True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\ensemble\_hist_gradient_boosting\gradient_boosting.py", line 274, in _preprocess_X
+    X = validate_data(self, X, **check_X_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\utils\validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\utils\validation.py", line 1012, in check_array
+    array = _ensure_sparse_format(
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\projects\venv\mle_agent\Lib\site-packages\sklearn\utils\validation.py", line 611, in _ensure_sparse_format
+    raise TypeError(
+TypeError: Sparse data was passed for X, but dense data is required. Use '.toarray()' to convert to a dense numpy array.

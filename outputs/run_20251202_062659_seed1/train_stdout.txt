@@ -1,0 +1,2 @@
+VAL_METRIC: accuracy=0.8158835546475995, logloss=0.5643022155827446
+Saved submission to .\submission.csv

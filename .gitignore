@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# env
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# outputs
+outputs/
+mlebench_results/
+reports/*.png
+reports/*.jpg
+
+# secrets
+.env
+**/kaggle.json
+
+# logs
+*.log
+*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
+
+
+#mlebench repo (keep local)
+mle-bench/
+

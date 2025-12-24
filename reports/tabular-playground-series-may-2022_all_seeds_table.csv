@@ -1,0 +1,4 @@
+competition_id,score,gold_threshold,silver_threshold,bronze_threshold,median_threshold,any_medal,gold_medal,silver_medal,bronze_medal,above_median,submission_exists,valid_submission,is_lower_better,created_at,submission_path
+tabular-playground-series-may-2022,0.79449,0.99823,0.99822,0.99818,0.972675,False,False,False,False,False,True,True,False,2025-12-24T17:25:36.680792,mlebench_results\tabular-playground-series-may-2022\run_20251224_171706_seed0\submission.csv
+tabular-playground-series-may-2022,0.79485,0.99823,0.99822,0.99818,0.972675,False,False,False,False,False,True,True,False,2025-12-24T17:34:23.976901,mlebench_results\tabular-playground-series-may-2022\run_20251224_172538_seed1\submission.csv
+tabular-playground-series-may-2022,0.79326,0.99823,0.99822,0.99818,0.972675,False,False,False,False,False,True,True,False,2025-12-24T17:42:07.339436,mlebench_results\tabular-playground-series-may-2022\run_20251224_173425_seed2\submission.csv
